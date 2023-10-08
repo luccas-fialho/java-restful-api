@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-ckhgkuuafg7c73dum5ng-a.oregon-postgres.render.com:5432/api_postgre_db
+    username: api_postgre_db_user
+    password: zSlvIbrsyAnO51PGnDBUgsxCZtt5FSW2
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
